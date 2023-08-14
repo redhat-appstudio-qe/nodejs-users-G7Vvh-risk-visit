@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app-zpbp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-ihls-tenant/nodejs-users/simple-nodejs-app-zpbp@sha256:f974f4c89fb6c5a07086fb001734e4b0e3d415d95ed09c41d05e33480d788a76
         name: my-nodejs
         ports:
         - containerPort: 3001
