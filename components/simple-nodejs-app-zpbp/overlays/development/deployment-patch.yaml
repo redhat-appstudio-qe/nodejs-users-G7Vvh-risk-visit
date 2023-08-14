@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: simple-nodejs-app-zpbp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-ihls-tenant/nodejs-users/simple-nodejs-app-zpbp@sha256:f974f4c89fb6c5a07086fb001734e4b0e3d415d95ed09c41d05e33480d788a76
+        name: my-nodejs
+        resources: {}
+status: {}
